@@ -1,5 +1,5 @@
 // default import
-import multiply from "./main.js";
+import multiply from "./mainM.js";
 
 // named import
 import {add, subtract} from "./main.js";
