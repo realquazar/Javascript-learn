@@ -1,3 +1,5 @@
+// Uses module "import" statement
+
 export function add(a, b) {
     return a + b;
 }
