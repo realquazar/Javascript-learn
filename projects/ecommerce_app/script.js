@@ -29,6 +29,13 @@ document.addEventListener("DOMContentLoaded", () => {
             addToCart(product);
             
         }        
+    });
+    cartItems.addEventListener("click", (e) => {
+        if(e.target.tagName === "BUTTON") {
+            const productId = parseInt(e.target.getAttribute("data-id"));
+            cart.splice(productId, 1);
+            renderCart();
+        }
     })
 
     function addToCart(product) {
@@ -48,6 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const cartItem = document.createElement("div");
                 cartItem.innerHTML = `
                 ${item.name} - $${item.price.toFixed(2)}
+                <button data-id="${index}">Remove</button>
                 `
                 cartItems.appendChild(cartItem);
                 totalPriceDisplay.textContent = `$${totalPrice.toFixed(2)}`
