@@ -1,3 +1,4 @@
+// To run use "bun server.js"
 import {serve} from "bun";
 serve({
     fetch(request) {
