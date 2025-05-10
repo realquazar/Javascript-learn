@@ -11,6 +11,10 @@
 - code: https://github.com/realquazar/stackoverflow-clone
 ---
 
-### 4) SAAS-clerk website
+### 4) SAAS-clerk website:
 - code: https://github.com/realquazar/SAAS-clerk-app
+---
+
+### 5) Fastify auth system:
+- code: https://github.com/realquazar/fastify-auth-system
 ---
