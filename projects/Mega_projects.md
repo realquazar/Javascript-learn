@@ -18,3 +18,7 @@
 ### 5) Fastify auth system:
 - code: https://github.com/realquazar/fastify-auth-system
 ---
+
+### 6) LMS payment gateway:
+- code: https://github.com/realquazar/lms-payment-gateway-js
+---
